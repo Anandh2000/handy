@@ -1,0 +1,11 @@
+com\finzly\fxTrading\FxTrader\response\ErrorResponse.class
+com\finzly\fxTrading\FxTrader\tradingService\TradingService.class
+com\finzly\fxTrading\FxTrader\entity\User.class
+com\finzly\fxTrading\FxTrader\errorHandler\ErrorHandlerService.class
+com\finzly\fxTrading\FxTrader\controller\FxTradeController.class
+com\finzly\fxTrading\FxTrader\tradingServiceImpl\TradingServiceImpl.class
+com\finzly\fxTrading\FxTrader\FxTraderApplication.class
+com\finzly\fxTrading\FxTrader\entity\FxTradingData.class
+com\finzly\fxTrading\FxTrader\entity\MenuDisplayer.class
+com\finzly\fxTrading\FxTrader\repository\TradingRepository.class
+com\finzly\fxTrading\FxTrader\response\SuccessResponse.class

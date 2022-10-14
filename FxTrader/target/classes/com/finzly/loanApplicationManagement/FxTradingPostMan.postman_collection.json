@@ -1,0 +1,146 @@
+{
+	"info": {
+		"_postman_id": "c9e0770b-e192-4fe2-8f34-3ae0d35b9758",
+		"name": "FxTradingPostMan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23027302"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/menu",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/menu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"menu"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/bookformat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bookformat",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bookformat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/BookTrade",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customerName\": \"Anandh B.\",\r\n    \"currencyPair\": \"USDINR\",\r\n    \"amount\": 1000,\r\n    \"getRateYesOrNo\": \"yes\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/BookTrade",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"BookTrade"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/bookorCancel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "book"
+				},
+				"url": {
+					"raw": "http://localhost:8080/bookorCancel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bookorCancel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/PrintTrade",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/PrintTrade",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"PrintTrade"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/Exit",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "yes",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/Exit",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Exit"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
